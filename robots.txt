@@ -1,0 +1,14 @@
+# Разрешаем всем ботам индексацию
+User-agent: *
+Allow: /
+
+# Запрещаем доступ к служебным папкам
+Disallow: /_next/
+Disallow: /api/
+Disallow: /static/
+
+# Указываем путь к карте сайта
+Sitemap: https://anti-ai-shtrafnoy-brosok-5-detskiy.vercel.app/sitemap.xml
+
+# Хост (для поисковиков)
+Host: https://anti-ai-shtrafnoy-brosok-5-detskiy.vercel.app
